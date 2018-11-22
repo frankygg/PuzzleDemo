@@ -14,6 +14,7 @@
 		B72A9A0521A2A54D005F38B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72A9A0321A2A54D005F38B3 /* LaunchScreen.storyboard */; };
 		B72A9A0821A2A54D005F38B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A9A0721A2A54D005F38B3 /* main.m */; };
 		B72A9A1221A2A54D005F38B3 /* PuzzleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A9A1121A2A54D005F38B3 /* PuzzleDemoTests.m */; };
+		B72A9A1F21A2A952005F38B3 /* PuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A9A1E21A2A952005F38B3 /* PuzzleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B72A9A0D21A2A54D005F38B3 /* PuzzleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72A9A1121A2A54D005F38B3 /* PuzzleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleDemoTests.m; sourceTree = "<group>"; };
 		B72A9A1321A2A54D005F38B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72A9A1D21A2A908005F38B3 /* PuzzleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleView.h; sourceTree = "<group>"; };
+		B72A9A1E21A2A952005F38B3 /* PuzzleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B72A99F721A2A54B005F38B3 /* PuzzleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B72A9A1C21A2A8ED005F38B3 /* View */,
 				B72A99F821A2A54B005F38B3 /* AppDelegate.h */,
 				B72A99F921A2A54C005F38B3 /* AppDelegate.m */,
 				B72A99FB21A2A54C005F38B3 /* ViewController.h */,
@@ -101,6 +105,15 @@
 				B72A9A1321A2A54D005F38B3 /* Info.plist */,
 			);
 			path = PuzzleDemoTests;
+			sourceTree = "<group>";
+		};
+		B72A9A1C21A2A8ED005F38B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B72A9A1D21A2A908005F38B3 /* PuzzleView.h */,
+				B72A9A1E21A2A952005F38B3 /* PuzzleView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72A9A1F21A2A952005F38B3 /* PuzzleView.m in Sources */,
 				B72A99FD21A2A54C005F38B3 /* ViewController.m in Sources */,
 				B72A9A0821A2A54D005F38B3 /* main.m in Sources */,
 				B72A99FA21A2A54C005F38B3 /* AppDelegate.m in Sources */,

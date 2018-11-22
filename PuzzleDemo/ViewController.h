@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PuzzleView.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<PuzzleViewDelegate, UITextFieldDelegate>
 @end
 
