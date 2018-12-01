@@ -27,7 +27,6 @@
             CGContextSetLineWidth(context, 2.0);
             CGContextAddRect(context, CGRectMake(rectWidth*i, rectHeight*j, rectWidth, rectHeight));
             CGContextDrawPath(context, kCGPathFillStroke);
-            CGContextDrawPath(context, kCGPathFillStroke);
         }
     }
     if ([contentArray count] > 0) {
